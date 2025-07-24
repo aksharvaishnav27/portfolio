@@ -45,11 +45,11 @@ const About = () => {
           >
             <h3 className="text-2xl font-semibold mb-4">Who I Am ?</h3>
             <p className="text-lg mb-4">
-              I'm a passionate software developer with a deep enthusiasm for web
-              technologies and building intuitive, user-focused experiences. My
-              journey into programming began in college, and since then, I’ve
-              been on a continuous path of learning, growth, and exploration in
-              the world of tech.
+              I&apos;m a passionate software developer with a deep enthusiasm
+              for web technologies and building intuitive, user-focused
+              experiences. My journey into programming began in college, and
+              since then, I’ve been on a continuous path of learning, growth,
+              and exploration in the world of tech.
             </p>
             <p className="text-lg mb-6">
               With a solid foundation in computer science, I thrive on solving
