@@ -85,3 +85,99 @@ This portfolio is easily deployable on [Vercel](https://vercel.com/). Just conne
 ---
 
 > Made with ❤️ by Akshar Vaishnav
+
+---
+
+## How to Fix
+
+### 1. **About.js**
+
+**Error:**
+
+```
+48:16  Error: `'` can be escaped with &apos;, &lsquo;, &#39;, &rsquo;.  react/no-unescaped-entities
+```
+
+**What to do:**  
+Find any text like:
+
+```jsx
+I'm a passionate software developer...
+```
+
+Change to:
+
+```jsx
+I&apos;m a passionate software developer...
+```
+
+or
+
+```jsx
+I&#39;m a passionate software developer...
+```
+
+---
+
+### 2. **Hero.js**
+
+**Error:**
+
+```
+21:42  Error: `'` can be escaped with &apos;, &lsquo;, &#39;, &rsquo;.  react/no-unescaped-entities
+```
+
+**What to do:**  
+Find any text like:
+
+```jsx
+<span className="block">Hi, I'm</span>
+```
+
+Change to:
+
+```jsx
+<span className="block">Hi, I&apos;m</span>
+```
+
+or
+
+```jsx
+<span className="block">Hi, I&#39;m</span>
+```
+
+---
+
+## Quick Fix Steps
+
+1. **Open `src/components/About.js` and `src/components/Hero.js`.**
+2. **Search for any `'` in text nodes (not in code/props/JS).**
+3. **Replace with `&apos;` or `&#39;`.**
+4. **Commit and redeploy.**
+
+---
+
+### Example
+
+**Before:**
+
+```jsx
+<p>I'm constantly learning and expanding my skillset.</p>
+```
+
+**After:**
+
+```jsx
+<p>I&apos;m constantly learning and expanding my skillset.</p>
+```
+
+---
+
+## Reference
+
+- [Next.js: Disabling ESLint rules](https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules)
+
+---
+
+**After making these changes, your build will succeed!**  
+If you want, I can generate the exact code changes for you—just let me know!
