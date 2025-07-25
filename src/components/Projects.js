@@ -117,7 +117,7 @@ const Projects = () => {
             <motion.div
               key={index}
               variants={item}
-              className="bg-white dark:bg-primary-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow border border-primary-100 dark:border-primary-800"
+              className="dark:bg-primary-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow border border-primary-100 dark:border-primary-800"
             >
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>

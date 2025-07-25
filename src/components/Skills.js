@@ -133,7 +133,7 @@ const Skills = () => {
             <motion.div
               key={index}
               variants={item}
-              className="bg-white dark:bg-primary-900 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex flex-col items-center border border-primary-100 dark:border-primary-800"
+              className="dark:bg-primary-900 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex flex-col items-center border border-primary-100 dark:border-primary-800"
             >
               <div className="mb-4">{skill.icon}</div>
               <h3 className="font-medium text-lg mb-2">{skill.name}</h3>

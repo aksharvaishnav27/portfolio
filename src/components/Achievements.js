@@ -88,7 +88,7 @@ const Achievements = () => {
               <motion.div
                 key={index}
                 variants={item}
-                className="bg-white dark:bg-primary-900 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex gap-4 border border-primary-100 dark:border-primary-800"
+                className="dark:bg-primary-900 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex gap-4 border border-primary-100 dark:border-primary-800"
               >
                 <div>
                   <h4 className="font-bold text-lg">{cert.title}</h4>
