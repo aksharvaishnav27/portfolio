@@ -31,7 +31,7 @@ const Projects = () => {
       github: "https://github.com/aksharvaishnav27/Virtual-credit-card",
     },
     {
-      title: "Task Management App",
+      title: "Job Portal",
       description: (
         <ul className="list-disc pl-5 space-y-1 text-left">
           <li>
